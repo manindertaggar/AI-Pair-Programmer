@@ -4,41 +4,37 @@
 [![Version](https://img.shields.io/jetbrains/plugin/v/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 [![Downloads](https://img.shields.io/jetbrains/plugin/d/PLUGIN_ID.svg)](https://plugins.jetbrains.com/plugin/PLUGIN_ID)
 
-## Template ToDo list
-- [x] Create a new [IntelliJ Platform Plugin Template][template] project.
-- [ ] Get familiar with the [template documentation][template].
-- [ ] Adjust the [pluginGroup](./gradle.properties), [plugin ID](./src/main/resources/META-INF/plugin.xml) and [sources package](./src/main/kotlin).
-- [ ] Adjust the plugin description in `README` (see [Tips][docs:plugin-description])
-- [ ] Review the [Legal Agreements](https://plugins.jetbrains.com/docs/marketplace/legal-agreements.html?from=IJPluginTemplate).
-- [ ] [Publish a plugin manually](https://plugins.jetbrains.com/docs/intellij/publishing-plugin.html?from=IJPluginTemplate) for the first time.
-- [ ] Set the `PLUGIN_ID` in the above README badges.
-- [ ] Set the [Plugin Signing](https://plugins.jetbrains.com/docs/intellij/plugin-signing.html?from=IJPluginTemplate) related [secrets](https://github.com/JetBrains/intellij-platform-plugin-template#environment-variables).
-- [ ] Set the [Deployment Token](https://plugins.jetbrains.com/docs/marketplace/plugin-upload.html?from=IJPluginTemplate).
-- [ ] Click the <kbd>Watch</kbd> button on the top of the [IntelliJ Platform Plugin Template][template] to be notified about releases containing new features and fixes.
+## Overview
 
-<!-- Plugin description -->
-This Fancy IntelliJ Platform Plugin is going to be your implementation of the brilliant ideas that you have.
+AI Pair Programmer is plugin designed to streamline the coding process by providing comprehensive support for developers working on projects in various programming languages. This AI-powered assistant offers a range of features to enhance productivity and simplify common coding tasks.
 
-This specific section is a source for the [plugin.xml](/src/main/resources/META-INF/plugin.xml) file which will be extracted by the [Gradle](/build.gradle.kts) during the build process.
+## Contributing
+We welcome contributions to enhance and expand the capabilities of Assistant. Feel free to open issues, submit pull requests, or provide feedback to help us improve the tool.
 
-To keep everything working, do not remove `<!-- ... -->` sections. 
-<!-- Plugin description end -->
+## Features
 
-## Installation
+### 1. Multi-Language Support
 
-- Using the IDE built-in plugin system:
-  
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>Marketplace</kbd> > <kbd>Search for "AI-Pair-Programmer"</kbd> >
-  <kbd>Install</kbd>
-  
-- Manually:
+Easily navigate through projects written in different languages, including Android, iOS, Flutter, NodeJS, and Python. CodeBot Assistant adapts to the specific requirements of each language, ensuring a seamless development experience.
 
-  Download the [latest release](https://github.com/manindertaggar/AI-Pair-Programmer/releases/latest) and install it manually using
-  <kbd>Settings/Preferences</kbd> > <kbd>Plugins</kbd> > <kbd>⚙️</kbd> > <kbd>Install plugin from disk...</kbd>
+### 2. Intelligent Code Understanding
+
+Experience a new level of code comprehension with CodeBot Assistant. This powerful tool analyzes every line of your code, offering detailed and concise descriptions of files and functions. This capability facilitates a quick understanding of existing projects, making it easier for developers to dive into new codebases.
+
+### 3. File and Code Manipulation
+
+Unlike traditional text-based bots, CodeBot Assistant can perform file-related operations directly within your project. Create, modify, delete, and rename files effortlessly using intuitive commands. This exceptional capability empowers developers to interact with their codebase in a more dynamic and efficient manner.
+
+### 4. Code Style Adherence
+
+CodeBot Assistant is not just a text-based assistant; it understands your project's code style. When generating new code or making modifications, the assistant ensures that the output adheres to the existing project architecture. This feature promotes consistency and maintains the overall integrity of your codebase.
+
+### 5. Automated Test Generation
+
+Write tests effortlessly with CodeBot Assistant. A simple command is all it takes to generate test cases for your code, saving valuable time and ensuring robust test coverage.
+
+### 6. Seamless Documentation
+
+Documenting code has never been easier. CodeBot Assistant introduces a one-click solution to generate documentation for new files tracked via version control. This feature enhances code documentation practices, promoting collaboration and codebase understanding.
 
 
----
-Plugin based on the [IntelliJ Platform Plugin Template][template].
-
-[template]: https://github.com/JetBrains/intellij-platform-plugin-template
-[docs:plugin-description]: https://plugins.jetbrains.com/docs/intellij/plugin-user-experience.html#plugin-description-and-presentation
